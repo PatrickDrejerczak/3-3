@@ -33,6 +33,20 @@ function renderLineGraph(coins) {
           borderColor: "rgba(214, 24, 30, 1)",
           backgroundColor: "rgba(214, 24, 30, 0.2)",
         },
+        {
+          label: "Binance Coin",
+          borderWidth: 1,
+          data: getHistoricPrices(coins[3]),
+          borderColor: "rgba(154, 18, 179, 1)",
+          backgroundColor: "rgba(213, 184, 255, .2)", //final rgba value of .2 to enable semi-transparency
+        },
+        {
+          label: "Cardano",
+          borderWidth: 1,
+          data: getHistoricPrices(coins[4]),
+          borderColor: "rgba(249, 105, 14, 1)",
+          backgroundColor: "rgba(235, 149, 50, .2)",
+        },
       ],
     },
     options: {
