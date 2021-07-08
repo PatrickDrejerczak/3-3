@@ -1,0 +1,27 @@
+body {
+  font-family: "Cabin", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+button {
+  margin-left: 50px;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border-color: darkblue;
+  background-color: darkblue;
+  color: white;
+  width: 200px;
+}
